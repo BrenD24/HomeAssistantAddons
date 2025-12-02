@@ -6,10 +6,8 @@
   "url": "https://github.com/BrenD24/HomeAssistantAddons",
   "startup": "services",
   "boot": "auto",
-  "arch": [
-    "amd64"
-  ],
-  "image": "brend24/companion:latest",
+  "arch": ["amd64"],
+  "image": "brend24/companion",
   "host_network": true,
   "ingress": false,
   "panel_icon": "mdi:remote",
@@ -26,12 +24,10 @@
   "map": [
     "config:rw"
   ],
-
-  "devices": [],
-  "uart": false,
-
   "options": {},
   "schema": {},
+  "devices": [],
+  "uart": false,
   "stage": "stable",
   "homeassistant": "2024.0.0"
 }
