@@ -26,6 +26,10 @@
   "map": [
     "config:rw"
   ],
+
+  "devices": [],
+  "uart": false,
+
   "options": {},
   "schema": {},
   "stage": "experimental",
