@@ -9,10 +9,9 @@
   "arch": ["amd64"],
   "image": "brend24/companion",
   "host_network": true,
-  "ingress": false,
+  "ingress": true,
   "panel_icon": "mdi:remote",
   "panel_title": "Companion",
-  "webui": "http://[HOST]:[PORT:8000]",
   "ports": {
     "8000/tcp": 8000,
     "16622/tcp": 16622
