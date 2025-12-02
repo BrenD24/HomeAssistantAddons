@@ -1,0 +1,33 @@
+{
+  "name": "Bitfocus Companion",
+  "version": "0.1.0",
+  "slug": "bitfocus_companion",
+  "description": "Runs brend24/companion:latest with host networking and persistent config.",
+  "url": "https://github.com/BrenD24/BitfocusCompanionHomeAssistant",
+  "startup": "services",
+  "boot": "auto",
+  "arch": [
+    "amd64"
+  ],
+  "image": "brend24/companion:latest",
+  "host_network": true,
+  "ingress": false,
+  "panel_icon": "mdi:remote",
+  "panel_title": "Companion",
+  "webui": "http://[HOST]:8000",
+  "ports": {
+    "8000/tcp": 8000,
+    "16622/tcp": 16622
+  },
+  "ports_description": {
+    "8000/tcp": "Companion Web UI",
+    "16622/tcp": "Companion TCP port"
+  },
+  "map": [
+    "config:rw"
+  ],
+  "options": {},
+  "schema": {},
+  "stage": "experimental",
+  "homeassistant": "2024.0.0"
+}
