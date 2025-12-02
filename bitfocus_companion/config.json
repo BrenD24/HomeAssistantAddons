@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "slug": "bitfocus_companion",
   "description": "Runs brend24/companion:latest with host networking and persistent config.",
-  "url": "https://github.com/BrenD24/BitfocusCompanionHomeAssistant",
+  "url": "https://github.com/BrenD24/HomeAssistantAddons",
   "startup": "services",
   "boot": "auto",
   "arch": [
