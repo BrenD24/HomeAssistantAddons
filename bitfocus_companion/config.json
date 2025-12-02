@@ -32,6 +32,6 @@
 
   "options": {},
   "schema": {},
-  "stage": "experimental",
+  "stage": "stable",
   "homeassistant": "2024.0.0"
 }
