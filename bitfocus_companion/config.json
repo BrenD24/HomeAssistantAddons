@@ -14,11 +14,9 @@
   "panel_icon": "mdi:remote",
   "panel_title": "Companion",
   "ports": {
-    "8000/tcp": 8000,
     "16622/tcp": 16622
   },
   "ports_description": {
-    "8000/tcp": "Companion Web UI",
     "16622/tcp": "Companion TCP port"
   },
   "map": [
