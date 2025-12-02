@@ -12,7 +12,7 @@
   "ingress": false,
   "panel_icon": "mdi:remote",
   "panel_title": "Companion",
-  "webui": "http://[HOST]:8000",
+  "webui": "http://[HOST]:[PORT:8000]",
   "ports": {
     "8000/tcp": 8000,
     "16622/tcp": 16622
