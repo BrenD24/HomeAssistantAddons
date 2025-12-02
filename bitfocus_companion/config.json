@@ -9,7 +9,7 @@
   "arch": ["amd64"],
   "image": "brend24/companion",
   "host_network": true,
-
+  "webui": "http://[HOST]:[PORT:8000]",
   "panel_icon": "mdi:remote",
   "panel_title": "Companion",
   "ports": {
