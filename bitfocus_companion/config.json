@@ -1,6 +1,6 @@
 {
   "name": "Bitfocus Companion",
-  "version": "4.2.6.1",
+  "version": "4.2.6",
   "slug": "bitfocus_companion",
   "description": "Runs brend24/companion:latest with persistent config and Home Assistant ingress.",
   "url": "https://github.com/BrenD24/HomeAssistantAddons",
